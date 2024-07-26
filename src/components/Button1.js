@@ -7,8 +7,16 @@ function Button1(){
     return(
         <div>
             <p>Count: {counter}</p>
-            <button onClick={() => setCounter(counter + 1)}>Increment</button>
-            <button onClick={() => setCounter(counter - 1)}>Decrement</button>            
+            <button style={{
+                background:'red',
+                color:'#fff',
+                padding:'10px'
+            }} onClick={() => setCounter(counter + 1)}>Increment</button>
+            <button style={{
+                background:'blue',
+                color:'#fff',
+                padding:'10px'
+            }}  onClick={() => setCounter(counter - 1)}>Decrement</button>            
         </div>
     )
 }
