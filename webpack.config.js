@@ -4,7 +4,7 @@ const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPl
 const { dependencies } = require("./package.json");
 module.exports = {
   entry: "./src/entry.js",
-  mode: "development",
+  mode: "production",
   devServer: {
     port: 3001, // port 3001 for header-app
   },
